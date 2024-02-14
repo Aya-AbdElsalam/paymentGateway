@@ -5,17 +5,17 @@ and ensuring WordPress compatibility.
 
 # Technologies
 
-React.js
-CSS
-React Hook Form
-react-phone-input-2
+- React.js
+- CSS
+- React Hook Form
+- react-phone-input-2
 
 # Demo
 https://payment-gateway-inky.vercel.app/
 
 # Screenshot of the page
 
-![Uploading gateway.png…]()
+![gateway](https://github.com/Aya-AbdElsalam/paymentGateway/assets/152267387/aeeab5a0-7f59-44b2-974b-317e9aa43cf8)
 
 # Getting Started with Create React App
 
