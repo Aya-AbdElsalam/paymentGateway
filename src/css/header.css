@@ -1,0 +1,31 @@
+.header {
+    height: 55px;
+    background-color: white;
+    position: fixed;
+    z-index: 6000;
+}
+
+.header .flags {
+    width: 172px;
+}
+
+.header .flag,
+.header .flag-selected {
+    height: 30px;
+    cursor: pointer;
+}
+
+.header .flag-selected span {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 2.5;
+    margin-right: 10px;
+}
+
+.header .flag-list {
+    height: 172px;
+    overflow: auto;
+    background-color: white;
+    font-size: 12px;
+    line-height: 2.5;
+}

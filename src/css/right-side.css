@@ -1,0 +1,120 @@
+.form-right-side {
+    width: 40%;
+    background-color: #f6f7f9;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .form-right-side {
+        width: 100%;
+    }
+}
+
+.form-right-side>p:first-of-type {
+    color: black;
+    font-weight: bold;
+}
+
+.number-month {
+    flex-wrap: wrap;
+}
+
+.number-month>div {
+    width: calc(100% / 3);
+    font-size: 12px;
+    color: var(--txt--color--second);
+    background-color: white;
+    border: 1px solid #f6f7f9;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.form-right-side .extra-discount label {
+    width: 30px;
+    height: 15px;
+    background-color: white;
+    cursor: pointer;
+    position: relative;
+    border-radius: 30px;
+    border: 1px solid var(--txt--color--second);
+}
+
+.form-right-side .extra-discount label::before {
+    position: absolute;
+    content: "";
+    background-color: var(--txt--color--second);
+    width: 15px;
+    height: 13px;
+    border-radius: 50%;
+}
+
+.form-right-side .extra-discount input {
+    display: none;
+}
+
+.form-right-side .extra-discount p {
+    color: black;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.form-right-side .extra-discount input:checked+label {
+    background-color: blue;
+}
+
+.form-right-side .extra-discount input:checked+label::before {
+    transform: translateX(100%);
+    background-color: white;
+}
+
+.form-right-side .order-overview {
+    align-items: baseline;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.form-right-side .order-overview span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form-right-side .regular-price span {
+    text-decoration: line-through;
+}
+
+.form-right-side .discount p,
+.form-right-side .discount {
+    color: #8bc83a;
+    font-weight: bold;
+}
+
+.form-right-side .discount span {
+    font-size: 18px;
+}
+
+.form-right-side .price-blue span {
+    font-size: 18px;
+    color: #5664cd;
+}
+
+.form-right-side .terms {
+    line-height: 1.5;
+    font-size: 13px;
+    color: var(--txt--color--second);
+}
+
+.form button[type="submit"] {
+    width: 100%;
+    height: 45px;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(45deg, #6c82f9, #0db6f1);
+    cursor: pointer;
+}
+
+.form-right-side>p:last-of-type {
+    margin-top: auto;
+    font-weight: bold;
+    font-size: 15px;
+}

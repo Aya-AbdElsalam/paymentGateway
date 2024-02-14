@@ -1,3 +1,17 @@
+# Description
+
+Recreate a UI akin to GoStudent's order page, utilizing advanced front-end techniques
+and ensuring WordPress compatibility.
+
+# tools
+
+React.js
+CSS
+React Hook Form
+react-phone-input-2
+
+# Demo
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
