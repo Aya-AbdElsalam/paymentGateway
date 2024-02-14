@@ -3,7 +3,7 @@
 Recreate a UI akin to GoStudent's order page, utilizing advanced front-end techniques
 and ensuring WordPress compatibility.
 
-# tools
+# Technologies
 
 React.js
 CSS
@@ -11,6 +11,11 @@ React Hook Form
 react-phone-input-2
 
 # Demo
+https://payment-gateway-inky.vercel.app/
+
+# Screenshot of the page
+
+![Uploading gateway.png…]()
 
 # Getting Started with Create React App
 
