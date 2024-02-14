@@ -14,7 +14,7 @@ export default function PaymentInputs(props) {
                                             <div className="card-img">
                                                 <img alt="card" src={card}  width="20" height="20" loading="lazy"/>
                                             </div>
-                                            <input placeholder="Card Number" className="full-width" {...props.register("cardNumber", {
+                                            <input placeholder="Card Number" type="number" className="full-width" {...props.register("cardNumber", {
                                                 required: true,
                                             })}
                                             />
@@ -31,7 +31,7 @@ export default function PaymentInputs(props) {
                                         {props.errors.date && <span className="error">Invalid MM/YY</span>}
                                     </div>
                                     <div>
-                                        <input placeholder="CVC" className="full-width"   {...props.register("cvc", {
+                                        <input placeholder="CVC"  type="number" className="full-width"   {...props.register("cvc", {
                                             required: true,
                                         })}
                                             style={{ border: props.errors.cvc && "1px solid red" }}
