@@ -44,7 +44,6 @@ select {
 .form-left-side input:focus:not([type="radio"]),
 select:focus {
     outline: 1px solid #80808063;
-    border-radius: 5px;
 }
 
 .form-left-side .login-phone {
